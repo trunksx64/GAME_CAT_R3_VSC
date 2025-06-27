@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GameCat_R3_MPLAB_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GameCat_R3_MPLAB_Bin2Hex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameCat_R3_MPLAB_Bin2Hex-99c7f31b3e44ee9793c6.json",
+					"name" : "GameCat_R3_MPLAB_Bin2Hex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameCat_R3_MPLAB_GameCat_R3.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameCat_R3_MPLAB_GameCat_R3.elf-e3c30351a542697c02e7.json",
+					"name" : "GameCat_R3_MPLAB_GameCat_R3.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameCat_R3_MPLAB_assemblePreproc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameCat_R3_MPLAB_assemblePreproc-ae5a4bd20d543b4b3b77.json",
+					"name" : "GameCat_R3_MPLAB_assemblePreproc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GameCat_R3_MPLAB_compile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GameCat_R3_MPLAB_compile-88b4dfb3693edfacfe31.json",
+					"name" : "GameCat_R3_MPLAB_compile",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB",
+		"source" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

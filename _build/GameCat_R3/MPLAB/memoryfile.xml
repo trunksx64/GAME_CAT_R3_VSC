@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="GameCat_R3_MPLAB_GameCat_R3.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>4450</used>
+      <free>3742</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>131328</length>
+      <used>9264</used>
+      <free>122064</free>
+    </memory>
+  </executable>
+</project>

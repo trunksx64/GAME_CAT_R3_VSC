@@ -1,0 +1,252 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Linux - 6.12.6-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/microchip/xc16/v2.10/bin/xc16-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Assembler messages:
+      Warning: Using default target divide cycle count of 17; please specify device.
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/3.28.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      elf-gcc (Microchip Technology) 4.5.1 (XC16, Microchip v2.10)  (A) Build date: Mar 27 2023
+      Part support version: 2.10 (A)
+      __XC16_VERSION__ == 2010
+      Copyright (C) 2010 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/CMakeScratch/TryCompile-KIv44f"
+      binary: "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/CMakeScratch/TryCompile-KIv44f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/.generated/overrides.cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/CMakeScratch/TryCompile-KIv44f'
+        
+        Run Build Command(s): /home/xDNA/.mplab/app-finder/apps/ninja/v1.11.1/ninja -v cmTC_5d851
+        [1/2] /opt/microchip/xc16/v2.10/bin/xc16-gcc   -v -o CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -c /opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).
+        Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+        Using built-in specs.
+        COLLECT_GCC=/opt/microchip/xc16/v2.10/bin/bin/elf-gcc
+        Target: pic30-elf
+        Configured with: /home/xc16/release-builds/build_20230327/src/XC_GCC/gcc/configure --build=x86_64-linux --target=pic30-elf --disable-lto --disable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --disable-hosted-libstdcxx --with-gnu-as --with-gnu-ld --enable-languages=c --disable-nls --disable-libgomp --without-headers --disable-libffi --disable-bootstrap --prefix=/bin --libexecdir=/bin --program-prefix=pic30- --with-libelf=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs/ --with-dwarf2 --with-gmp=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-ppl=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-cloog=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-zlib=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-bugurl=https://www.microchip.com/technical-support --with-host-libstdcxx=
+        Thread model: single
+        gcc version 4.5.1 (XC16, Microchip v2.10) Build date: Mar 27 2023 (Microchip Technology) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o' '-c'
+         /opt/microchip/xc16/v2.10/bin/bin/../xc16-cc1 -quiet -v -iprefix /opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/ /opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -mresource=/opt/microchip/xc16/v2.10/bin/bin/../c30_device.info -omf=elf -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc6TARkL.00010f56.s
+        Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).
+        Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+        GNU C (Microchip Technology) version 4.5.1 (XC16, Microchip v2.10) Build date: Mar 27 2023 (pic30-elf)
+        	compiled by GNU C version 9.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/include"
+        ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/include-fixed"
+        ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/../../../../pic30-elf/sys-include"
+        ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/../../../../pic30-elf/include"
+        ignoring nonexistent directory "/bin/lib/gcc/pic30-elf/4.5.1/include"
+        ignoring nonexistent directory "/bin/lib/gcc/pic30-elf/4.5.1/include-fixed"
+        ignoring nonexistent directory "/bin/pic30-elf/sys-include"
+        ignoring nonexistent directory "/bin/pic30-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/microchip/xc16/v2.10/bin/bin/../../include
+         /opt/microchip/xc16/v2.10/bin/bin/../../support/generic/h
+        End of search list.
+        GNU C (Microchip Technology) version 4.5.1 (XC16, Microchip v2.10) Build date: Mar 27 2023 (pic30-elf)
+        	compiled by GNU C version 9.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 704abab00e25077a936bf7936ff85a5a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o' '-c'
+         /opt/microchip/xc16/v2.10/bin/bin/../xc16-as -v --relax -omf=elf -o CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o /tmp/cc6TARkL.00010f56.s
+        Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).
+        Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+        GNU assembler version 2.14 - Microchip 2.10 (A) Build date: Mar-27-2023(pic30-elf) using BFD version 2.14 20030612
+        Assembler messages:
+        Warning: Using default target divide cycle count of 17; please specify device.
+        PIC30_COMPILER_PATH=/opt/microchip/xc16/v2.10/bin/bin/../
+        PIC30_LIBRARY_PATH=/opt/microchip/xc16/v2.10/bin/bin/../:/opt/microchip/xc16/v2.10/bin/bin/../../lib/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o' '-c'
+        [2/2] : && /opt/microchip/xc16/v2.10/bin/xc16-gcc  -v CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -o cmTC_5d851   && :
+        Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).
+        Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved
+        Using built-in specs.
+        COLLECT_GCC=/opt/microchip/xc16/v2.10/bin/bin/elf-gcc
+        Target: pic30-elf
+        Configured with: /home/xc16/release-builds/build_20230327/src/XC_GCC/gcc/configure --build=x86_64-linux --target=pic30-elf --disable-lto --disable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --disable-hosted-libstdcxx --with-gnu-as --with-gnu-ld --enable-languages=c --disable-nls --disable-libgomp --without-headers --disable-libffi --disable-bootstrap --prefix=/bin --libexecdir=/bin --program-prefix=pic30- --with-libelf=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs/ --with-dwarf2 --with-gmp=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-ppl=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-cloog=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-zlib=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-bugurl=https://www.microchip.com/technical-support --with-host-libstdcxx=
+        Thread model: single
+        gcc version 4.5.1 (XC16, Microchip v2.10) Build date: Mar 27 2023 (Microchip Technology) 
+        PIC30_COMPILER_PATH=/opt/microchip/xc16/v2.10/bin/bin/../
+        PIC30_LIBRARY_PATH=/opt/microchip/xc16/v2.10/bin/bin/../:/opt/microchip/xc16/v2.10/bin/bin/../../lib/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d851'
+         /opt/microchip/xc16/v2.10/bin/bin/../xc16-ld -omf=elf -o cmTC_5d851 -L/opt/microchip/xc16/v2.10/bin/bin/.. -L/opt/microchip/xc16/v2.10/bin/bin/../../lib -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -start-group -lc99-pic30-elf -lm-elf -lc99-elf -end-group
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/microchip/xc16/v2.10/bin/bin/../../include]
+          add: [/opt/microchip/xc16/v2.10/bin/bin/../../support/generic/h]
+        end of search list found
+        collapse include dir [/opt/microchip/xc16/v2.10/bin/bin/../../include] ==> [/opt/microchip/xc16/v2.10/include]
+        collapse include dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/generic/h] ==> [/opt/microchip/xc16/v2.10/support/generic/h]
+        implicit include dirs: [/opt/microchip/xc16/v2.10/include;/opt/microchip/xc16/v2.10/support/generic/h]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:18 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(xc16-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/CMakeScratch/TryCompile-KIv44f']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/xDNA/.mplab/app-finder/apps/ninja/v1.11.1/ninja -v cmTC_5d851]
+        ignore line: [[1/2] /opt/microchip/xc16/v2.10/bin/xc16-gcc   -v -o CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -c /opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).]
+        ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/microchip/xc16/v2.10/bin/bin/elf-gcc]
+        ignore line: [Target: pic30-elf]
+        ignore line: [Configured with: /home/xc16/release-builds/build_20230327/src/XC_GCC/gcc/configure --build=x86_64-linux --target=pic30-elf --disable-lto --disable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --disable-hosted-libstdcxx --with-gnu-as --with-gnu-ld --enable-languages=c --disable-nls --disable-libgomp --without-headers --disable-libffi --disable-bootstrap --prefix=/bin --libexecdir=/bin --program-prefix=pic30- --with-libelf=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs/ --with-dwarf2 --with-gmp=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-ppl=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-cloog=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-zlib=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-bugurl=https://www.microchip.com/technical-support --with-host-libstdcxx=]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 4.5.1 (XC16  Microchip v2.10) Build date: Mar 27 2023 (Microchip Technology) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o' '-c']
+        ignore line: [ /opt/microchip/xc16/v2.10/bin/bin/../xc16-cc1 -quiet -v -iprefix /opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/ /opt/STMicroelectronics/STM32CubeCLT/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c -mresource=/opt/microchip/xc16/v2.10/bin/bin/../c30_device.info -omf=elf -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc6TARkL.00010f56.s]
+        ignore line: [Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).]
+        ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+        ignore line: [GNU C (Microchip Technology) version 4.5.1 (XC16  Microchip v2.10) Build date: Mar 27 2023 (pic30-elf)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/include"]
+        ignore line: [ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/../../../../pic30-elf/sys-include"]
+        ignore line: [ignoring nonexistent directory "/opt/microchip/xc16/v2.10/bin/bin/../pic30-elf/4.5.1/../../../../pic30-elf/include"]
+        ignore line: [ignoring nonexistent directory "/bin/lib/gcc/pic30-elf/4.5.1/include"]
+        ignore line: [ignoring nonexistent directory "/bin/lib/gcc/pic30-elf/4.5.1/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/bin/pic30-elf/sys-include"]
+        ignore line: [ignoring nonexistent directory "/bin/pic30-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/microchip/xc16/v2.10/bin/bin/../../include]
+        ignore line: [ /opt/microchip/xc16/v2.10/bin/bin/../../support/generic/h]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (Microchip Technology) version 4.5.1 (XC16  Microchip v2.10) Build date: Mar 27 2023 (pic30-elf)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 704abab00e25077a936bf7936ff85a5a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o' '-c']
+        ignore line: [ /opt/microchip/xc16/v2.10/bin/bin/../xc16-as -v --relax -omf=elf -o CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o /tmp/cc6TARkL.00010f56.s]
+        ignore line: [Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).]
+        ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+        ignore line: [GNU assembler version 2.14 - Microchip 2.10 (A) Build date: Mar-27-2023(pic30-elf) using BFD version 2.14 20030612]
+        ignore line: [Assembler messages:]
+        ignore line: [Warning: Using default target divide cycle count of 17]
+        ignore line: [ please specify device.]
+        ignore line: [PIC30_COMPILER_PATH=/opt/microchip/xc16/v2.10/bin/bin/../]
+        ignore line: [PIC30_LIBRARY_PATH=/opt/microchip/xc16/v2.10/bin/bin/../:/opt/microchip/xc16/v2.10/bin/bin/../../lib/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o' '-c']
+        ignore line: [[2/2] : && /opt/microchip/xc16/v2.10/bin/xc16-gcc  -v CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -o cmTC_5d851   && :]
+        ignore line: [Microchip Language Tool Shell Version 2.10 (Build date: Mar 27 2023).]
+        ignore line: [Copyright (c) 2012-2017 Microchip Technology Inc. All rights reserved]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/microchip/xc16/v2.10/bin/bin/elf-gcc]
+        ignore line: [Target: pic30-elf]
+        ignore line: [Configured with: /home/xc16/release-builds/build_20230327/src/XC_GCC/gcc/configure --build=x86_64-linux --target=pic30-elf --disable-lto --disable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --disable-hosted-libstdcxx --with-gnu-as --with-gnu-ld --enable-languages=c --disable-nls --disable-libgomp --without-headers --disable-libffi --disable-bootstrap --prefix=/bin --libexecdir=/bin --program-prefix=pic30- --with-libelf=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs/ --with-dwarf2 --with-gmp=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-ppl=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-cloog=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-zlib=/home/xc16/release-builds/build_20230327/bin/XC_GCC-elf-linux64-xclm/host-libs --with-bugurl=https://www.microchip.com/technical-support --with-host-libstdcxx=]
+        ignore line: [Thread model: single]
+        ignore line: [gcc version 4.5.1 (XC16  Microchip v2.10) Build date: Mar 27 2023 (Microchip Technology) ]
+        ignore line: [PIC30_COMPILER_PATH=/opt/microchip/xc16/v2.10/bin/bin/../]
+        ignore line: [PIC30_LIBRARY_PATH=/opt/microchip/xc16/v2.10/bin/bin/../:/opt/microchip/xc16/v2.10/bin/bin/../../lib/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld/:/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5d851']
+        link line: [ /opt/microchip/xc16/v2.10/bin/bin/../xc16-ld -omf=elf -o cmTC_5d851 -L/opt/microchip/xc16/v2.10/bin/bin/.. -L/opt/microchip/xc16/v2.10/bin/bin/../../lib -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o -start-group -lc99-pic30-elf -lm-elf -lc99-elf -end-group]
+          arg [/opt/microchip/xc16/v2.10/bin/bin/../xc16-ld] ==> ignore
+          arg [-omf=elf] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5d851] ==> ignore
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/..] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/..]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../lib] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../lib]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld]
+          arg [-L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld] ==> dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld]
+          arg [CMakeFiles/cmTC_5d851.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-start-group] ==> ignore
+          arg [-lc99-pic30-elf] ==> lib [c99-pic30-elf]
+          arg [-lm-elf] ==> lib [m-elf]
+          arg [-lc99-elf] ==> lib [c99-elf]
+          arg [-end-group] ==> ignore
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/..] ==> [/opt/microchip/xc16/v2.10/bin]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../lib] ==> [/opt/microchip/xc16/v2.10/lib]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld] ==> [/opt/microchip/xc16/v2.10/support/PIC24E/gld]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24F/gld] ==> [/opt/microchip/xc16/v2.10/support/PIC24F/gld]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24H/gld] ==> [/opt/microchip/xc16/v2.10/support/PIC24H/gld]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC30F/gld] ==> [/opt/microchip/xc16/v2.10/support/dsPIC30F/gld]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld] ==> [/opt/microchip/xc16/v2.10/support/dsPIC33C/gld]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld] ==> [/opt/microchip/xc16/v2.10/support/dsPIC33E/gld]
+        collapse library dir [/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld] ==> [/opt/microchip/xc16/v2.10/support/dsPIC33F/gld]
+        implicit libs: [c99-pic30-elf;m-elf;c99-elf]
+        implicit objs: []
+        implicit dirs: [/opt/microchip/xc16/v2.10/bin;/opt/microchip/xc16/v2.10/lib;/opt/microchip/xc16/v2.10/support/PIC24E/gld;/opt/microchip/xc16/v2.10/support/PIC24F/gld;/opt/microchip/xc16/v2.10/support/PIC24H/gld;/opt/microchip/xc16/v2.10/support/dsPIC30F/gld;/opt/microchip/xc16/v2.10/support/dsPIC33C/gld;/opt/microchip/xc16/v2.10/support/dsPIC33E/gld;/opt/microchip/xc16/v2.10/support/dsPIC33F/gld]
+        implicit fwks: []
+      
+      
+...

@@ -1,0 +1,209 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "GameCat_R3_MPLAB_GameCat_R3.elf"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_options",
+			"GameCat_R3_MPLAB_link_rule",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "GameCat_R3_MPLAB_assemblePreproc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "GameCat_R3_MPLAB_compile::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "GameCat_R3_MPLAB_GameCat_R3.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mcpu=24HJ128GP504",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-DXPRJ_MPLAB=MPLAB",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--script=p24HJ128GP504.gld,--local-stack,--defsym=__MPLAB_BUILD=1,--heap=128,--stack=16,--check-sections,--data-init,--pack-data,--handles,--isr,--gc-sections,--fill-upper=0,--stackguard=16,--no-force-link,--smart-io,--report-mem,--memorysummary,memoryfile.xml",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mdfp=/home/xDNA/.mchp_packs/Microchip/dsPIC33F-GP-MC_DFP/1.4.235/xc16",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "GameCat_R3_MPLAB_GameCat_R3.elf",
+	"nameOnDisk" : "GameCat_R3_MPLAB_GameCat_R3.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_assemblePreproc.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/Portable/PIC24/portasm_PIC24.S.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_MAIN/Function_MAIN.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_TASK/Settings_TASKS.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_TASK/Task_CTRL_LEDC.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/event_groups.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/list.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/queue.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/tasks.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/timers.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/Portable/PIC24/port.c.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/Portable/MemMang/heap_4.c.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

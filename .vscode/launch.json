@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "Launch GameCat_R3: MPLAB",
+            "type": "mplab-core-da",
+            "request": "launch",
+            "device": "PIC24HJ128GP504",
+            "program": "${workspaceFolder}/_output/GameCat_R3.elf",
+            "tool": "${command:pickTool}",
+            "stopOnEntry": true,
+            "preLaunchTask": "GameCat_R3: MPLAB - Full Build"
+        }
+    ]
+}

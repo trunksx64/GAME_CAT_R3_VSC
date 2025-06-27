@@ -1,0 +1,177 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "CMakeFiles/GameCat_R3_MPLAB_assemblePreproc.dir/./home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/Portable/PIC24/portasm_PIC24.S.o"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"target_compile_options",
+			"GameCat_R3_MPLAB_assemblePreproc_rule",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=24HJ128GP504"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-DXPRJ_MPLAB=MPLAB"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wa,--defsym=__MPLAB_BUILD=1,--no-relax,"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mdfp=/home/xDNA/.mchp_packs/Microchip/dsPIC33F-GP-MC_DFP/1.4.235/xc16"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_DRIVERS_HAL"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_CONTROL_HAL"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_LIBRARIES_HARD"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_LIBRARIES_SOFT"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_MAIN"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_INTERRUPTIONS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_STREAMS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_TASK"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_FreeRTOS"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_FreeRTOS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_FreeRTOS/Portable/PIC24"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB/../../../P24H_FreeRTOS/Portable/MemMang"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "GameCat_R3_MPLAB_assemblePreproc::@6890427a1f51a3e7e1df",
+	"name" : "GameCat_R3_MPLAB_assemblePreproc",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "/home/xDNA/User/Desktop/GameCat_R3/P24H_FreeRTOS/Portable/PIC24/portasm_PIC24.S",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

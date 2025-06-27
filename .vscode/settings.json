@@ -1,0 +1,7 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB"
+    ],
+    "mplab.clangd.path": "",
+    "cmake.sourceDirectory": "/home/xDNA/User/Desktop/GameCat_R3/cmake/GameCat_R3/MPLAB"
+}

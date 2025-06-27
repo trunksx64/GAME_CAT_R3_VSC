@@ -1,0 +1,68 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "/opt/microchip/xc16/v2.10/bin/xc16-gcc",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/microchip/xc16/v2.10/include",
+						"/opt/microchip/xc16/v2.10/support/generic/h"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/microchip/xc16/v2.10/bin",
+						"/opt/microchip/xc16/v2.10/lib",
+						"/opt/microchip/xc16/v2.10/support/PIC24E/gld",
+						"/opt/microchip/xc16/v2.10/support/PIC24F/gld",
+						"/opt/microchip/xc16/v2.10/support/PIC24H/gld",
+						"/opt/microchip/xc16/v2.10/support/dsPIC30F/gld",
+						"/opt/microchip/xc16/v2.10/support/dsPIC33C/gld",
+						"/opt/microchip/xc16/v2.10/support/dsPIC33E/gld",
+						"/opt/microchip/xc16/v2.10/support/dsPIC33F/gld"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"c99-pic30-elf",
+						"m-elf",
+						"c99-elf"
+					]
+				},
+				"path" : "/opt/microchip/xc16/v2.10/bin/xc16-gcc",
+				"version" : "4.5.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

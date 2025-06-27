@@ -1,0 +1,6 @@
+/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_assemblePreproc.dir
+/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_compile.dir
+/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_GameCat_R3.elf.dir
+/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/GameCat_R3_MPLAB_Bin2Hex.dir
+/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/edit_cache.dir
+/home/xDNA/User/Desktop/GameCat_R3/_build/GameCat_R3/MPLAB/CMakeFiles/rebuild_cache.dir
